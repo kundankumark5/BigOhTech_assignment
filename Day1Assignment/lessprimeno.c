@@ -1,4 +1,5 @@
-/*#include<stdio.h>
+//Find the largest number less than N whose each digit is prime number
+#include<stdio.h>
 #include<conio.h>
 int main()
 {
@@ -37,4 +38,4 @@ int main()
         printf("not a prime no entered");
     }
     return 0;
-}*/
+}
