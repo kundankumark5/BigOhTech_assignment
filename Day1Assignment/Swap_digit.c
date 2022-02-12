@@ -1,6 +1,6 @@
 //ii) Write a program (without using inbuilt functions and not using Strings or array) to swap first and last digits of any number
-#include <stdio.h>
-#include <conio.h>
+#include<stdio.h>
+#include<conio.h>
 int main()
 {
     int n, first, last, swap;

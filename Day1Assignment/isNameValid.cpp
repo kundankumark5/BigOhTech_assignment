@@ -52,12 +52,18 @@ int isNameValid(string str)
         {
             if (str[c[n] + 1] == 'T')
             {
-                t = 1;
+                t=1;
             }
         }
     }
-
-    return k;
+    if(t=1)
+    {
+    return k=3;
+    }
+    else
+    {
+        return k;
+    }
 }
 int main()
 {
@@ -67,7 +73,7 @@ int main()
     cin >> str;
     int isNameValid(string);
     h = isNameValid(str);
-    if (h >= 2 || t == 1)
+    if (h >= 2)
     {
         cout << "InValid Name";
     }
