@@ -8,7 +8,8 @@ void printKMax(int arr[], int n, int k)
 	{
 		max = arr[i];
 
-		for (j = 1; j < k; j++) {
+		for (j = 1; j < k; j++) 
+		{
 			if (arr[i + j] > max)
 				max = arr[i + j];
 		}
