@@ -83,8 +83,6 @@ char *PrimeDgtNum(char N[], int size)
 
     ans[ns] = '\0';
 
-    // If number include 0 in the beginning, ignore
-    // them. Case like 2200
     int k = 0;
     while (ans[k] == '0')
         k++;
@@ -92,7 +90,6 @@ char *PrimeDgtNum(char N[], int size)
     return ans + k;
 }
 
-// Driver Program
 int main()
 {
     char N[10];
